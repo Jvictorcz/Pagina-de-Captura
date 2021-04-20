@@ -22,11 +22,91 @@ header{
  font-size: 25px;
 }
 section{
-    color: white;
+    padding: 20px;
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{
+    max-width:230px;
+    background-color:#FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 20px;
+
+}
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    
+
 }
 
-    
- 
+input[type="submit"]{
+    background-color:rgb(86, 158, 240) ;
+    color: white;
+    font-weight: bold
+}
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center;
+}
+footer{
+    background-color: rgb(26, 26, 26);
+    padding: 40px;
+    text-align: center;
+    
+}
+.rodape{
+    color:white;
+    max-width: 40%;
+    margin-left: 40px;
+    display: inline-block;
+    text-align: left;
+
+    
+}
+
+.picture{
+    width: 160px;
+    
+    
+}
+h3{
+    font-size: 24px;
+}
+
+@media screen and (max-width :800px ) {
+    .formContainer{
+        float: none;
+        margin: auto;
+        
+        
+    }
+    .rodape{
+        display: block;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 10px;
+    }      
+}
 
 
